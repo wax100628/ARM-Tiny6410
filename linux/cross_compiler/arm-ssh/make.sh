@@ -20,9 +20,9 @@ install_dir=$local_dir/install
 mkdir -p $source_dir $compressed_dir $install_dir
 
 # 2. 下载源代码
-wget http://mirrors.nycbug.org/pub/OpenBSD/OpenSSH/portable/openssh-7.1p1.tar.gz -P $compressed_dir
+wget https://openbsd.hk/pub/OpenBSD/OpenSSH/portable/openssh-7.1p1.tar.gz -P $compressed_dir
 wget https://www.openssl.org/source/openssl-1.0.2f.tar.gz -P $compressed_dir
-wget http://zlib.net/zlib-1.2.8.tar.gz -P $compressed_dir
+wget http://www.zlib.net/fossils/zlib-1.2.3.tar.gz -P $compressed_dir
 
 # 3. 解压
 cd $compressed_dir
